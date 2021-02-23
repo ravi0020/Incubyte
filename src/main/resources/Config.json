@@ -1,0 +1,16 @@
+{
+	"pageUrl": {
+		"gmail": "https://login.yahoo.com/"
+	},
+	
+	"users": {
+		"ravi": {
+			"username": "ravi.kumar844762@yahoo.com",
+			"password": "baghel@20"
+		}
+		
+		
+	},
+	"Browser": "chrome",
+		"DefaultWait": "30"
+	}

@@ -1,0 +1,45 @@
+2021-02-23 16:54:56 INFO  AttachHooks:21 - Execution started setup initializing ...
+2021-02-23 16:54:56 INFO  AttachHooks:23 - Running Scenario :To Verify yahoo compose mail with attachment functionality : (TS001)
+2021-02-23 16:54:57 INFO  WebDriverManager:567 - Using chromedriver 88.0.4324.96 (since Google Chrome 88 is installed in your machine)
+2021-02-23 16:54:57 INFO  WebDriverManager:1042 - Exporting webdriver.chrome.driver as C:\Users\HP\.m2\repository\webdriver\chromedriver\win32\88.0.4324.96\chromedriver.exe
+2021-02-23 16:55:00 INFO  Config:34 - fetching login url
+2021-02-23 16:55:04 INFO  WebUtil:47 - Navigate to Url :https://login.yahoo.com/
+2021-02-23 16:55:04 INFO  WebUtil:56 - Located element using locator:By.xpath: //input[@id='login-username']
+2021-02-23 16:55:04 INFO  Config:39 - Fetching userName from configuration file
+2021-02-23 16:55:05 INFO  WebUtil:112 - WebElement:[[ChromeDriver: chrome on WINDOWS (c14b2ac42debd95dec70076d7d16ad81)] -> xpath: //input[@id='login-username']] is present on the page
+2021-02-23 16:55:05 INFO  WebUtil:153 - Entering value:ravi.kumar844762@yahoo.com in field located by webelement:[[ChromeDriver: chrome on WINDOWS (c14b2ac42debd95dec70076d7d16ad81)] -> xpath: //input[@id='login-username']]
+2021-02-23 16:55:05 INFO  Config:39 - Fetching userName from configuration file
+2021-02-23 16:55:05 INFO  LoginPage:23 -  Username: ravi.kumar844762@yahoo.comentered on the login page
+2021-02-23 16:55:05 INFO  WebUtil:56 - Located element using locator:By.xpath: //*[@id='login-signin']
+2021-02-23 16:55:05 INFO  LoginPage:25 - click on next button on the login page
+2021-02-23 16:55:07 INFO  WebUtil:56 - Located element using locator:By.xpath: //input[@id='login-passwd']
+2021-02-23 16:55:07 INFO  Config:49 - fetching password from configuration file
+2021-02-23 16:55:07 INFO  WebUtil:112 - WebElement:[[ChromeDriver: chrome on WINDOWS (c14b2ac42debd95dec70076d7d16ad81)] -> xpath: //input[@id='login-passwd']] is present on the page
+2021-02-23 16:55:08 INFO  WebUtil:153 - Entering value:baghel@20 in field located by webelement:[[ChromeDriver: chrome on WINDOWS (c14b2ac42debd95dec70076d7d16ad81)] -> xpath: //input[@id='login-passwd']]
+2021-02-23 16:55:08 INFO  Config:49 - fetching password from configuration file
+2021-02-23 16:55:08 INFO  LoginPage:29 -  Password: baghel@20entered on the login page
+2021-02-23 16:55:08 INFO  WebUtil:56 - Located element using locator:By.xpath: //*[@id='login-signin']
+2021-02-23 16:55:34 INFO  LoginPage:31 - click on next button on the login page
+2021-02-23 16:55:34 INFO  WebUtil:56 - Located element using locator:By.xpath: //b[@id='navbar-mail-dot']/..
+2021-02-23 16:55:37 INFO  LoginPage:20 - Click on mail box link in header on homepage
+2021-02-23 16:55:38 INFO  WebUtil:56 - Located element using locator:By.xpath: //a[@data-test-id='compose-button']
+2021-02-23 16:55:42 INFO  InboxMailPage:34 - Click on compose button on homepage
+2021-02-23 16:55:42 INFO  WebUtil:56 - Located element using locator:By.xpath: //input[@id='message-to-field']
+2021-02-23 16:55:42 INFO  WebUtil:112 - WebElement:[[ChromeDriver: chrome on WINDOWS (c14b2ac42debd95dec70076d7d16ad81)] -> xpath: //input[@id='message-to-field']] is present on the page
+2021-02-23 16:55:42 INFO  WebUtil:153 - Entering value:LTXa@RaV.com in field located by webelement:[[ChromeDriver: chrome on WINDOWS (c14b2ac42debd95dec70076d7d16ad81)] -> xpath: //input[@id='message-to-field']]
+2021-02-23 16:55:42 INFO  InboxMailPage:43 - value :LTXa@RaV.com enter in to reciepent on compose mail page 
+2021-02-23 16:55:42 INFO  WebUtil:56 - Located element using locator:By.xpath: //input[@data-test-id='compose-subject']
+2021-02-23 16:55:42 INFO  WebUtil:112 - WebElement:[[ChromeDriver: chrome on WINDOWS (c14b2ac42debd95dec70076d7d16ad81)] -> xpath: //input[@data-test-id='compose-subject']] is present on the page
+2021-02-23 16:55:42 INFO  WebUtil:153 - Entering value:Sub_WZ8fM in field located by webelement:[[ChromeDriver: chrome on WINDOWS (c14b2ac42debd95dec70076d7d16ad81)] -> xpath: //input[@data-test-id='compose-subject']]
+2021-02-23 16:55:42 INFO  InboxMailPage:50 - Subject :Sub_WZ8fM enter on compose mail page 
+2021-02-23 16:55:43 INFO  WebUtil:56 - Located element using locator:By.xpath: //div[@id='editor-container']/div
+2021-02-23 16:55:43 INFO  WebUtil:112 - WebElement:[[ChromeDriver: chrome on WINDOWS (c14b2ac42debd95dec70076d7d16ad81)] -> xpath: //div[@id='editor-container']/div] is present on the page
+2021-02-23 16:55:43 INFO  WebUtil:153 - Entering value:9B8sPWFK1qRwdjtSILfD in field located by webelement:[[ChromeDriver: chrome on WINDOWS (c14b2ac42debd95dec70076d7d16ad81)] -> xpath: //div[@id='editor-container']/div]
+2021-02-23 16:55:43 INFO  InboxMailPage:56 - Message entered on compose mail page 
+2021-02-23 16:55:43 INFO  WebUtil:56 - Located element using locator:By.xpath: //button[@data-test-id='icon-btn-attach']
+2021-02-23 16:55:43 INFO  InboxMailPage:96 - Click on attachement button on compose mail page
+2021-02-23 16:55:43 INFO  WebUtil:56 - Located element using locator:By.xpath: //li[@data-test-id='attach-from-computer-list-btn']
+2021-02-23 16:55:43 INFO  InboxMailPage:102 - Click on attach file from computer button on compose mail page
+2021-02-23 16:55:47 INFO  WebUtil:56 - Located element using locator:By.xpath: //button[@data-test-id='compose-send-button']
+2021-02-23 16:55:49 INFO  InboxMailPage:63 - Click on send button on compose mail page
+2021-02-23 16:55:51 INFO  AttachHooks:31 - Browser getting closed
