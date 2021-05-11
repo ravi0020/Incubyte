@@ -30,7 +30,7 @@ public class WaitUtil {
 	}
 
 	/**
-	 *  this method is used to wait till element clickable
+	 *  this method is used to waiggfgft till element clickable
 	 * 
 	 * @param element
 	 */
